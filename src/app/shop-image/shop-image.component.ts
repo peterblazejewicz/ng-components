@@ -1,24 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'cmpnt-shop-image',
+  selector: 'shop-image',
   template: `
-    <style>
-    </style>
-    <img #img (onLoad)="onImgLoad" (onError)="onImgError">
-
+    <img #img (onLoad)="onImgLoad" (onError)="onImgError" src="{{src}}" alt="{{alt}}">
   `,
   styles: [`
     :host {
-          display: block;
-          position: relative;
-          overflow: hidden;
-          background-size: cover;
-          background-position: center;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
     }
   `]
 })
 export class ShopImageComponent implements OnInit {
+
+  @Input()
+  src: string;
+  @Input()
+  alt: string;
+  @Input()
+  placeholderImg: string;
 
   constructor() { }
 
