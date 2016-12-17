@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ShopImageComponent } from './shop-image/shop-image.component';
+import { IronImageComponent } from './iron-image/iron-image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShopImageComponent
+    ShopImageComponent,
+    IronImageComponent
   ],
   imports: [
     BrowserModule,
