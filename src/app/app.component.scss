@@ -11,3 +11,14 @@ shop-image /deep/ img {
   right: -9999px;
   max-width: none;
 }
+
+iron-image {
+  border-radius: 50%;
+}
+iron-image /deep/ img {
+  border-radius: 50%;
+}
+
+iron-image /deep/ #placeholder {
+  border-radius: 50%;
+}
