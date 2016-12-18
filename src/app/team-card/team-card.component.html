@@ -2,7 +2,7 @@
   <h4 class="card-title">{{team.name}}</h4>
 </div>
 <div class="list-group list-group-flush">
-  <div class="list-group-item list-group-item-action" *ngFor="let user of users">
+  <div class="list-group-item list-group-item-action" *ngFor="let user of users" (click)="goToUser(user.id.value)">
     <iron-image src="{{user.picture.medium}}" sizing="cover" position="center" width="50" height="50"
       alt="user" preload="true" fade="true" placeholder="{{placeholder}}"></iron-image>
     <div class="list-group-item--info">
@@ -11,6 +11,6 @@
     </div>
   </div>
 </div>
-<div class="card-block">
-  <button type="button" class="btn btn-primary">Go To {{team.name}}</button>
+<div class="card-footer">
+  <button type="button" class="btn btn-primary" (click)="goToTeam(team.id)">Go To {{team.name}}</button>
 </div>

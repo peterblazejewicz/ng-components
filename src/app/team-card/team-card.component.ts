@@ -30,4 +30,12 @@ export class TeamCardComponent implements OnInit, OnChanges {
     }
   }
 
+  goToTeam(id: number) {
+    alert(`Go to team: ${id}`);
+  }
+
+  goToUser(id: number) {
+    alert(`Go to user: ${id}`);
+  }
+
 }
