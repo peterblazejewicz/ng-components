@@ -22,3 +22,55 @@ iron-image /deep/ img {
 iron-image /deep/ #placeholder {
   border-radius: 50%;
 }
+.card--team .list-group-item {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+.card-columns {
+  columns: 1;
+}
+.card--team .list-group-item:hover {
+  cursor: pointer;
+}
+
+.card--team .list-group-item:focus {
+  cursor: pointer;
+}
+.card--team .list-group-item a {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex: 1 0 auto;
+}
+.card--team .list-group-item a,
+.card--team .list-group-item a:hover,
+.card--team .list-group-item a:active,
+.card--team .list-group-item a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card--team .list-group-item iron-image {
+  float: left;
+  margin-right: 16px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+.card--team .list-group-item--info {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.list-group-item-heading {
+  font-size: 1rem;
+  line-height: 1;
+}
+.list-group-item-text {
+  font-size: 0.75rem;
+  line-height: 1;
+}
