@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ShopImageComponent } from './shop-image/shop-image.component';
 import { IronImageComponent } from './iron-image/iron-image.component';
+import { TeamCardComponent } from './team-card/team-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShopImageComponent,
-    IronImageComponent
+    IronImageComponent,
+    TeamCardComponent
   ],
   imports: [
     BrowserModule,
