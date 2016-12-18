@@ -1,0 +1,554 @@
+[{
+  "name": "Development",
+  "id": "54",
+  "users": [{
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "katrine",
+        "last": "christensen"
+      },
+      "location": {
+        "street": "9630 dalstrøget",
+        "city": "sommersted",
+        "state": "hovedstaden",
+        "postcode": 66657
+      },
+      "email": "katrine.christensen@example.com",
+      "login": {
+        "username": "purpledog844",
+        "password": "stylus",
+        "salt": "7fE1CzBY",
+        "md5": "d482daf44e5aebdf181055e67711ee21",
+        "sha1": "e11cd748c2a0b3444347ea194f26d677511a0a54",
+        "sha256": "3cbaf9ad28ff60193e5054f509574a5cc74bf60d30436dfe642fc0295ca3474d"
+      },
+      "dob": "1945-12-14 21:33:18",
+      "registered": "2012-01-29 19:59:22",
+      "phone": "06492148",
+      "cell": "22675137",
+      "id": {
+        "name": "CPR",
+        "value": "669969-5842"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/18.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/18.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/18.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "daniel",
+        "last": "møller"
+      },
+      "location": {
+        "street": "3641 bragesvej",
+        "city": "ishoej",
+        "state": "nordjylland",
+        "postcode": 72433
+      },
+      "email": "daniel.møller@example.com",
+      "login": {
+        "username": "ticklishgoose513",
+        "password": "chrisbln",
+        "salt": "gSn11ttX",
+        "md5": "028c65520181f51b43ae14ff61dc5b8e",
+        "sha1": "5e1e93852a17b1b223c623a88b590008e024b692",
+        "sha256": "4f342e6fe3d69da4fd04d996605f1f34277bcbac25f92f6437790de33aaf7184"
+      },
+      "dob": "1970-01-14 12:04:49",
+      "registered": "2010-04-24 02:53:00",
+      "phone": "61062419",
+      "cell": "57205609",
+      "id": {
+        "name": "CPR",
+        "value": "040875-0511"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/65.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/65.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/65.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "kasper",
+        "last": "olsen"
+      },
+      "location": {
+        "street": "9124 vægterparken",
+        "city": "ølstykke",
+        "state": "midtjylland",
+        "postcode": 26268
+      },
+      "email": "kasper.olsen@example.com",
+      "login": {
+        "username": "beautifulelephant108",
+        "password": "white1",
+        "salt": "JenGjyrV",
+        "md5": "8012030b10440d70034acb8c18f7e0a6",
+        "sha1": "3dab54a81186063d78e983f976ceadfd4192acb2",
+        "sha256": "b37c22071da9342b2b335765a99aed8b8cf535bbbd69eae97a9d48af1745c120"
+      },
+      "dob": "1961-08-20 16:43:43",
+      "registered": "2004-01-04 11:32:53",
+      "phone": "30561572",
+      "cell": "76721885",
+      "id": {
+        "name": "CPR",
+        "value": "241776-0446"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/63.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/63.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/63.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "silas",
+        "last": "madsen"
+      },
+      "location": {
+        "street": "1870 bogfinkevej",
+        "city": "v.skerninge",
+        "state": "hovedstaden",
+        "postcode": 39574
+      },
+      "email": "silas.madsen@example.com",
+      "login": {
+        "username": "organicladybug782",
+        "password": "dynamo",
+        "salt": "uNbf4GPL",
+        "md5": "f2aeff2401c6c59a875fc6bcdd91bcda",
+        "sha1": "cb750986d2e8463b0edb3fe73503387a78b2eac1",
+        "sha256": "f314f442bbbf3c464852745af9f078a005f9cc806d4c1c613c5983cf4f174cc3"
+      },
+      "dob": "1973-04-11 22:19:06",
+      "registered": "2004-10-21 11:55:21",
+      "phone": "46811603",
+      "cell": "73653199",
+      "id": {
+        "name": "CPR",
+        "value": "816767-1099"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/72.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/72.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/72.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "benjamin",
+        "last": "hansen"
+      },
+      "location": {
+        "street": "4225 h.c. andersens vej",
+        "city": "nykøbing f",
+        "state": "sjælland",
+        "postcode": 92030
+      },
+      "email": "benjamin.hansen@example.com",
+      "login": {
+        "username": "brownbutterfly742",
+        "password": "blue11",
+        "salt": "UHhC7CLw",
+        "md5": "1afbb5418e5ca81b3c6e06b52eba6e0a",
+        "sha1": "a03a6a541e9f9882fad97a06db4fe38f2ddd01d8",
+        "sha256": "557030252e56f44c9dbc2babb5795b2444ccfbf299059ea223d4eb98d00ba87a"
+      },
+      "dob": "1948-06-23 07:46:58",
+      "registered": "2007-09-02 10:00:03",
+      "phone": "95294658",
+      "cell": "53693885",
+      "id": {
+        "name": "CPR",
+        "value": "972138-2068"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/5.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/5.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/5.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "tilde",
+        "last": "jørgensen"
+      },
+      "location": {
+        "street": "7830 hasselvænget",
+        "city": "kongens  lyngby",
+        "state": "sjælland",
+        "postcode": 65927
+      },
+      "email": "tilde.jørgensen@example.com",
+      "login": {
+        "username": "blacktiger189",
+        "password": "jerry1",
+        "salt": "MkJgu1et",
+        "md5": "f09203de6878a46b1b6562a6e77a3d80",
+        "sha1": "9710acb9fbcf1fa0fc2a8aa3224782016ad15e39",
+        "sha256": "c37eac65be91932b88962f161fb7ca4b66ef2e1853778e74aac97f5711decf4d"
+      },
+      "dob": "1949-07-20 11:30:55",
+      "registered": "2008-08-30 09:38:58",
+      "phone": "48458143",
+      "cell": "48333609",
+      "id": {
+        "name": "CPR",
+        "value": "057084-8643"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/41.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/41.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/41.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "jeppe",
+        "last": "christiansen"
+      },
+      "location": {
+        "street": "6843 kongensgade",
+        "city": "sandved",
+        "state": "sjælland",
+        "postcode": 83993
+      },
+      "email": "jeppe.christiansen@example.com",
+      "login": {
+        "username": "yellowelephant274",
+        "password": "oceans",
+        "salt": "TfDWjiOP",
+        "md5": "1012becea23fe15e42f932bc2a309a4c",
+        "sha1": "941a6edb7abb3d793923031093b79dd4effaf63a",
+        "sha256": "dc6d01207893419b0b83ef4e1e8e33668a855be3af43a795fa65636c215c5ff3"
+      },
+      "dob": "1968-01-07 10:29:34",
+      "registered": "2012-06-28 14:25:58",
+      "phone": "31122660",
+      "cell": "79473313",
+      "id": {
+        "name": "CPR",
+        "value": "893342-5046"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/10.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/10.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/10.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "lucas",
+        "last": "jørgensen"
+      },
+      "location": {
+        "street": "8904 følfodvej",
+        "city": "snertinge",
+        "state": "midtjylland",
+        "postcode": 26857
+      },
+      "email": "lucas.jørgensen@example.com",
+      "login": {
+        "username": "goldenswan588",
+        "password": "cupoi",
+        "salt": "9JsEqjn0",
+        "md5": "915d76775ce629b3502f124d2deb81f5",
+        "sha1": "d01905e9d772280924aa22f0ff4f492622d10307",
+        "sha256": "fa1483e345332ef95e4df544b4b6df31cf5b6ea8c6d97d1ceb71b32d1464e3df"
+      },
+      "dob": "1972-09-28 12:54:41",
+      "registered": "2013-06-14 13:08:48",
+      "phone": "56841567",
+      "cell": "83228302",
+      "id": {
+        "name": "CPR",
+        "value": "336773-2203"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/13.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/13.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/13.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "rosa",
+        "last": "olsen"
+      },
+      "location": {
+        "street": "9183 langelinie",
+        "city": "v.skerninge",
+        "state": "midtjylland",
+        "postcode": 61081
+      },
+      "email": "rosa.olsen@example.com",
+      "login": {
+        "username": "orangelion168",
+        "password": "tuscl",
+        "salt": "57Flyk8r",
+        "md5": "864d98f9a84747e804d3a94f24e55613",
+        "sha1": "dc3e8492c41fdfde6bdee1c46478ad8c142ddba6",
+        "sha256": "3cfa14262b40a295e38fae8e3e3eadf9f592be97f9fcd5d5d6175b8e9d830feb"
+      },
+      "dob": "1958-11-14 01:12:16",
+      "registered": "2004-03-12 03:28:22",
+      "phone": "41598808",
+      "cell": "05798998",
+      "id": {
+        "name": "CPR",
+        "value": "131658-1783"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/76.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/76.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/76.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "female",
+      "name": {
+        "title": "miss",
+        "first": "caroline",
+        "last": "andersen"
+      },
+      "location": {
+        "street": "5825 gammel kongevej",
+        "city": "sørvad",
+        "state": "midtjylland",
+        "postcode": 35926
+      },
+      "email": "caroline.andersen@example.com",
+      "login": {
+        "username": "yellowtiger459",
+        "password": "detroit",
+        "salt": "cbmDxy6B",
+        "md5": "35ad80ec49f9812a494a68cef02027ba",
+        "sha1": "3460e5ede4c26f7931089d1e4285e2bf97158e8f",
+        "sha256": "efa90b7d489c7277c2cbd69fb813def8c47d4983f94cda9eca94a37425d3d283"
+      },
+      "dob": "1988-01-03 11:38:46",
+      "registered": "2004-05-20 06:10:00",
+      "phone": "20300616",
+      "cell": "92675551",
+      "id": {
+        "name": "CPR",
+        "value": "952866-0164"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/30.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/30.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/30.jpg"
+      },
+      "nat": "DK"
+    }
+
+  ]
+}, {
+  "name": "Accounting",
+  "id": 33,
+  "users": [
+
+    {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "emil",
+        "last": "christensen"
+      },
+      "location": {
+        "street": "7741 skovgårdsvej",
+        "city": "ishoej",
+        "state": "danmark",
+        "postcode": 42246
+      },
+      "email": "emil.christensen@example.com",
+      "login": {
+        "username": "heavyladybug242",
+        "password": "bunnies",
+        "salt": "fLapYhks",
+        "md5": "17a83e7f69916e1001dbe7ec7e950857",
+        "sha1": "c54277f3dd424561fb5bb579ef53aee9ab16b1cd",
+        "sha256": "2c12c61d90b805f994ccac0a7594e149a63ba92b80b160048480e384c67c8532"
+      },
+      "dob": "1990-07-19 14:59:38",
+      "registered": "2014-10-21 09:43:07",
+      "phone": "74090379",
+      "cell": "22342749",
+      "id": {
+        "name": "CPR",
+        "value": "546536-2224"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/99.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/99.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/99.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "carl",
+        "last": "christiansen"
+      },
+      "location": {
+        "street": "4869 østre alle",
+        "city": "allinge",
+        "state": "danmark",
+        "postcode": 49120
+      },
+      "email": "carl.christiansen@example.com",
+      "login": {
+        "username": "brownlion250",
+        "password": "vegeta",
+        "salt": "PyjifJ8L",
+        "md5": "4264a3c9dc099c2d53692536cf9a563d",
+        "sha1": "1fe4c5cf561ef2927448d9c0c9521b7a77e695cf",
+        "sha256": "39acf3b52fd381ed6bacddaa914ac5afcb77988012a9672db6122d7f8226709e"
+      },
+      "dob": "1956-11-19 02:22:40",
+      "registered": "2003-10-31 09:02:30",
+      "phone": "08936684",
+      "cell": "69492592",
+      "id": {
+        "name": "CPR",
+        "value": "618533-3681"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/86.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/86.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/86.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "female",
+      "name": {
+        "title": "miss",
+        "first": "isabella",
+        "last": "petersen"
+      },
+      "location": {
+        "street": "9986 anemonevej",
+        "city": "støvring ",
+        "state": "sjælland",
+        "postcode": 54102
+      },
+      "email": "isabella.petersen@example.com",
+      "login": {
+        "username": "ticklishladybug371",
+        "password": "james1",
+        "salt": "MhaZdoCL",
+        "md5": "f81047c942b75f541a9c9096524750eb",
+        "sha1": "ae7ddcda11f72afdefc8d743efcd7e4719c25a4a",
+        "sha256": "926beb13450602544a9e44d50397375fd11c0c0dd13e832ba8ae86d702dab976"
+      },
+      "dob": "1961-08-21 19:07:09",
+      "registered": "2005-05-06 05:19:16",
+      "phone": "98786128",
+      "cell": "07743020",
+      "id": {
+        "name": "CPR",
+        "value": "678917-1943"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/46.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/46.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/46.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "male",
+      "name": {
+        "title": "mr",
+        "first": "sander",
+        "last": "andersen"
+      },
+      "location": {
+        "street": "4965 dalstrøget",
+        "city": "nr åby",
+        "state": "sjælland",
+        "postcode": 43440
+      },
+      "email": "sander.andersen@example.com",
+      "login": {
+        "username": "smallbird849",
+        "password": "spanish",
+        "salt": "M9QaagDQ",
+        "md5": "b1f5e6ba1ff75fa24ecf30dada5794f2",
+        "sha1": "dcc53dc111992dd2f0d09501178d604b23ba62ed",
+        "sha256": "181be9ebe744cee6b8a3383ccfbbdedc23ed14d114b377d7c004d66ef4b4e61e"
+      },
+      "dob": "1958-11-05 04:02:56",
+      "registered": "2007-08-22 20:14:46",
+      "phone": "01053345",
+      "cell": "94728524",
+      "id": {
+        "name": "CPR",
+        "value": "060664-2652"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/97.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/97.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/97.jpg"
+      },
+      "nat": "DK"
+    }, {
+      "gender": "female",
+      "name": {
+        "title": "mrs",
+        "first": "liva",
+        "last": "madsen"
+      },
+      "location": {
+        "street": "4504 vesterbro",
+        "city": "roskilde",
+        "state": "midtjylland",
+        "postcode": 95658
+      },
+      "email": "liva.madsen@example.com",
+      "login": {
+        "username": "silverleopard649",
+        "password": "sputnik",
+        "salt": "g2jlLaLW",
+        "md5": "ec40a89c1d7ec39be08ab2619a99c69c",
+        "sha1": "0a410b72fe51b321474bf1088ca6a4fcb101cc21",
+        "sha256": "3ca262c842f3c51833cf46b3173367fd4168911eabd149cc96d1d5809a754047"
+      },
+      "dob": "1956-08-10 19:23:18",
+      "registered": "2007-06-03 05:46:39",
+      "phone": "10027568",
+      "cell": "95025231",
+      "id": {
+        "name": "CPR",
+        "value": "653100-9214"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/93.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/93.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/93.jpg"
+      },
+      "nat": "DK"
+    }
+  ]
+}]
