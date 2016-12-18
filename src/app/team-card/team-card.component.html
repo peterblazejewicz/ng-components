@@ -1,16 +1,16 @@
 <div class="card-header">
-  <h4 class="card-title">Team</h4>
+  <h4 class="card-title">{{team.name}}</h4>
 </div>
 <div class="list-group list-group-flush">
-  <div class="list-group-item list-group-item-action">
-    <iron-image src="https://randomuser.me/api/portraits/med/men/83.jpg" sizing="cover" position="center" width="50" height="50"
-      alt="user" preload="true" fade="true" placeholder="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAeAAD/7gAOQWRvYmUAZMAAAAAB/9sAhAAQCwsLDAsQDAwQFw8NDxcbFBAQFBsfFxcXFxcfHhcaGhoaFx4eIyUnJSMeLy8zMy8vQEBAQEBAQEBAQEBAQEBAAREPDxETERUSEhUUERQRFBoUFhYUGiYaGhwaGiYwIx4eHh4jMCsuJycnLis1NTAwNTVAQD9AQEBAQEBAQEBAQED/wAARCAADAA4DASIAAhEBAxEB/8QAXAABAQEAAAAAAAAAAAAAAAAAAAIEAQEAAAAAAAAAAAAAAAAAAAACEAAAAwYHAQAAAAAAAAAAAAAAERMBAhIyYhQhkaEDIwUVNREBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A3dkr5e8tfpwuneJITOzIcmQpit037Bw4mnCVNOpAAQv/2Q=="></iron-image>
+  <div class="list-group-item list-group-item-action" *ngFor="let user of users">
+    <iron-image src="{{user.picture.medium}}" sizing="cover" position="center" width="50" height="50"
+      alt="user" preload="true" fade="true" placeholder="{{placeholder}}"></iron-image>
     <div class="list-group-item--info">
-      <h5 class="list-group-item-heading">John Greg Brown</h5>
-      <p class="list-group-item-text">Donec id elit</p>
+      <h5 class="list-group-item-heading">{{user.name.first}} {{user.name.last}}</h5>
+      <p class="list-group-item-text">{{user.location.city}}, {{user.location.state}}, {{user.nat}}</p>
     </div>
   </div>
 </div>
 <div class="card-block">
-  <button type="button" class="btn btn-primary">Go somewhere</button>
+  <button type="button" class="btn btn-primary">Go To {{team.name}}</button>
 </div>

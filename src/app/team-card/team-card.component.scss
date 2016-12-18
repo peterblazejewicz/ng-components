@@ -1,9 +1,13 @@
 @import "../../scss/variables";
 
-::host {
+:host {
   width: 100%;
-  display: block;
+  position: relative;
+  will-change: contents;
+  overflow: hidden;
+  break-inside: avoid;
 }
+
 .card-header {
   background: $brand-color;
   color: #fff;
@@ -38,20 +42,6 @@ iron-image /deep/ #placeholder {
   cursor: pointer;
 }
 
-.list-group-item a {
-  display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  flex: 1 0 auto;
-}
-.list-group-item a,
-.list-group-item a:hover,
-.list-group-item a:active,
-.list-group-item a:focus {
-  text-decoration: none;
-  color: inherit;
-}
-
 .list-group-item iron-image {
   float: left;
   margin-right: 16px;
@@ -68,9 +58,9 @@ iron-image /deep/ #placeholder {
 }
 .list-group-item-heading {
   font-size: 1rem;
-  line-height: 1;
+  line-height: 0.9;
 }
 .list-group-item-text {
   font-size: 0.75rem;
-  line-height: 1;
+  line-height: 0.9;
 }
