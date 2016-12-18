@@ -1,3 +1,10 @@
+.team-cards {
+  columns: 3;
+  position: relative;
+  column-gap: 1.25rem;
+  padding: 0.5rem;
+}
+
 shop-image {
     position: relative;
     height: 320px;
@@ -11,6 +18,7 @@ shop-image /deep/ img {
   right: -9999px;
   max-width: none;
 }
+
 iron-image {
   border-radius: 50%;
 }
@@ -21,15 +29,14 @@ iron-image /deep/ img {
 iron-image /deep/ #placeholder {
   border-radius: 50%;
 }
+
 .card--team .list-group-item {
   display: flex;
   align-items: center;
   box-sizing: border-box;
   padding: 0.5rem;
 }
-.card-columns {
-  columns: 1;
-}
+
 .card--team .list-group-item:hover {
   cursor: pointer;
 }

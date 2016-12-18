@@ -1,40 +1,6 @@
-<div class="container">
-  <div class="card-columns">
-    <team-card></team-card>
-    <div class="card card--team">
-      <div class="list-group list-group-flush">
-        <div class="list-group-item list-group-item-action">
-          <a href="#">
-            <iron-image src="https://randomuser.me/api/portraits/med/men/83.jpg" sizing="cover" position="center" width="50" height="50"
-      alt="user" preload="true" fade="true" placeholder="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAeAAD/7gAOQWRvYmUAZMAAAAAB/9sAhAAQCwsLDAsQDAwQFw8NDxcbFBAQFBsfFxcXFxcfHhcaGhoaFx4eIyUnJSMeLy8zMy8vQEBAQEBAQEBAQEBAQEBAAREPDxETERUSEhUUERQRFBoUFhYUGiYaGhwaGiYwIx4eHh4jMCsuJycnLis1NTAwNTVAQD9AQEBAQEBAQEBAQED/wAARCAADAA4DASIAAhEBAxEB/8QAXAABAQEAAAAAAAAAAAAAAAAAAAIEAQEAAAAAAAAAAAAAAAAAAAACEAAAAwYHAQAAAAAAAAAAAAAAERMBAhIyYhQhkaEDIwUVNREBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A3dkr5e8tfpwuneJITOzIcmQpit037Bw4mnCVNOpAAQv/2Q=="></iron-image>
-            <div class="list-group-item--info">
-              <h5 class="list-group-item-heading">John Greg Brown</h5>
-              <p class="list-group-item-text">Donec id elit</p>
-            </div>
-          </a>
-        </div>
-        <div class="list-group-item list-group-item-action">
-          <iron-image src="https://randomuser.me/api/portraits/med/women/33.jpg" sizing="cover" position="center" width="50" height="50"
-    alt="user" preload="true" fade="true" placeholder="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAeAAD/7gAOQWRvYmUAZMAAAAAB/9sAhAAQCwsLDAsQDAwQFw8NDxcbFBAQFBsfFxcXFxcfHhcaGhoaFx4eIyUnJSMeLy8zMy8vQEBAQEBAQEBAQEBAQEBAAREPDxETERUSEhUUERQRFBoUFhYUGiYaGhwaGiYwIx4eHh4jMCsuJycnLis1NTAwNTVAQD9AQEBAQEBAQEBAQED/wAARCAADAA4DASIAAhEBAxEB/8QAXAABAQEAAAAAAAAAAAAAAAAAAAIEAQEAAAAAAAAAAAAAAAAAAAACEAAAAwYHAQAAAAAAAAAAAAAAERMBAhIyYhQhkaEDIwUVNREBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A3dkr5e8tfpwuneJITOzIcmQpit037Bw4mnCVNOpAAQv/2Q=="></iron-image>
-          <div class="list-group-item--info">
-            <h5 class="list-group-item-heading">List group item heading</h5>
-            <p class="list-group-item-text">Donec id elit</p>
-          </div>
-        </div>
-        <div class="list-group-item list-group-item-action">
-
-          <iron-image src="https://randomuser.me/api/portraits/men/22.jpg" sizing="cover" position="center" width="50" height="50"
-    preload="true" fade="true" placeholder="data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAeAAD/7gAOQWRvYmUAZMAAAAAB/9sAhAAQCwsLDAsQDAwQFw8NDxcbFBAQFBsfFxcXFxcfHhcaGhoaFx4eIyUnJSMeLy8zMy8vQEBAQEBAQEBAQEBAQEBAAREPDxETERUSEhUUERQRFBoUFhYUGiYaGhwaGiYwIx4eHh4jMCsuJycnLis1NTAwNTVAQD9AQEBAQEBAQEBAQED/wAARCAADAA4DASIAAhEBAxEB/8QAXAABAQEAAAAAAAAAAAAAAAAAAAIEAQEAAAAAAAAAAAAAAAAAAAACEAAAAwYHAQAAAAAAAAAAAAAAERMBAhIyYhQhkaEDIwUVNREBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A3dkr5e8tfpwuneJITOzIcmQpit037Bw4mnCVNOpAAQv/2Q=="></iron-image>
-          <div class="list-group-item--info">
-            <h5 class="list-group-item-heading">List group item heading</h5>
-            <p class="list-group-item-text">Donec id elit</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
+<div class="container-fluid">
+  <div class="team-cards">
+    <team-card [team]="team" *ngFor="let team of teams"></team-card>
   </div>
 </div>
 <div class="container-fluid">
