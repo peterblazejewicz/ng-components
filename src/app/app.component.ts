@@ -18,6 +18,6 @@ export class AppComponent implements OnInit {
       .get()
       .subscribe((teams: any[]) => {
         this.teams = teams;
-      })
+      });
   }
 }

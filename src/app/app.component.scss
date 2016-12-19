@@ -1,8 +1,10 @@
+
 .team-cards {
   columns: 4;
   position: relative;
   column-gap: 1.25rem;
-  padding: 0.5rem;
+  padding: 0;
+  margin-bottom: 1.25rem;
 }
 
 shop-image {
