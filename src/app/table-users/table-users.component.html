@@ -9,12 +9,21 @@
   <tbody>
     <tr *ngFor="let user of users">
       <td>
-        <iron-image src="{{user.picture.medium}}" sizing="cover" position="center" width="40" height="40"
-      alt="user" preload="true" fade="true" placeholder="{{placeholder}}"></iron-image>
+        <iron-image src="{{user.picture.medium}}" sizing="cover" position="center" width="40" height="40" alt="user" preload="true"
+          fade="true" placeholder="{{placeholder}}"></iron-image>
       </td>
       <td>{{user.name.first}} {{user.name.last}}</td>
       <td>{{user.email}}</td>
       <td>{{user.login.username}}</td>
     </tr>
   </tbody>
+  <tfoot *ngIf="user">
+    <td>
+      <iron-image src="{{user.picture.medium}}" sizing="cover" position="center" width="40" height="40" alt="user" preload="true"
+        fade="true" placeholder="{{placeholder}}"></iron-image>
+    </td>
+    <td>{{user.name.first}} {{user.name.last}}</td>
+    <td>{{user.email}}</td>
+    <td>{{user.login.username}}</td>
+  </tfoot>
 </table>
