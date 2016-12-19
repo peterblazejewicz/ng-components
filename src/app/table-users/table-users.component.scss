@@ -1,0 +1,19 @@
+:host {
+  display: block;
+}
+
+.table th, .table td  {
+  vertical-align: middle;
+}
+.table td  {
+  padding: 0.5rem;
+  vertical-align: middle;
+}
+iron-image {
+  vertical-align: middle;
+}
+iron-image,
+iron-image /deep/ img,
+iron-image /deep/ #placeholder {
+  border-radius: 50%;
+}

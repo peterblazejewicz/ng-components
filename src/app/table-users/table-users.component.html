@@ -1,0 +1,20 @@
+<table [ngClass]="tableClass">
+  <thead [ngClass]="headerClass">
+    <tr>
+      <th colspan="2">Employee</th>
+      <th>Email</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>
+        <iron-image src="{{user.picture.medium}}" sizing="cover" position="center" width="40" height="40"
+      alt="user" preload="true" fade="true" placeholder="{{placeholder}}"></iron-image>
+      </td>
+      <td>{{user.name.first}} {{user.name.last}}</td>
+      <td>{{user.email}}</td>
+      <td>{{user.login.username}}</td>
+    </tr>
+  </tbody>
+</table>

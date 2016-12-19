@@ -12,14 +12,17 @@ import { ShopImageComponent } from './shop-image/shop-image.component';
 import { IronImageComponent } from './iron-image/iron-image.component';
 import { TeamCardComponent } from './team-card/team-card.component';
 import { InMemoryDataApiService } from './in-memory-data-api.service';
-import { TeamService } from './team.service';
+import { TeamService } from './team.service'
+import { TableUsersComponent } from './table-users/table-users.component';
+import { UserService } from './user.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     ShopImageComponent,
     IronImageComponent,
-    TeamCardComponent
+    TeamCardComponent,
+    TableUsersComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { TeamService } from './team.service';
     InMemoryWebApiModule.forRoot(InMemoryDataApiService)
   ],
   providers: [
-    TeamService
+    TeamService,
+    UserService
   ],
   bootstrap: [AppComponent]
 })
