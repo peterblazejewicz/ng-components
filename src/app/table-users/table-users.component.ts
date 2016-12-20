@@ -1,3 +1,4 @@
+import { Jsonp } from '@angular/http';
 import { UserService } from '../user.service';
 import { Component, OnInit, Input } from '@angular/core';
 
@@ -30,7 +31,8 @@ export class TableUsersComponent implements OnInit {
     this.service
       .get()
       .subscribe((users: any[]) => {
-        this.users = users;
+        let copy = JSON.parse(JSON.stringify(users));
+        this.users = copy.sort((a, b) => 0.5 - Math.random());
         this.user = (users.length) ? users[0] : null;
       });
   }

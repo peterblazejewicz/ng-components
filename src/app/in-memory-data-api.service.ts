@@ -8,7 +8,7 @@ export class InMemoryDataApiService implements InMemoryDbService {
 
   createDb() {
     let teams = require('../data/teams.json');
-    let users = [...teams[0].users];
+    let users = JSON.parse(JSON.stringify(teams[0].users));
     teams = [...teams, ...teams, ...teams];
     teams.sort(() => 0.5 - Math.random());
     teams.forEach(team => {
